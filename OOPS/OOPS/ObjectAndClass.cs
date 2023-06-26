@@ -13,4 +13,9 @@ namespace OOPS
             Console.WriteLine($"The Addition of a and b : {a+b}");
         }
     }
+
+    class Inherit : ObjectAndClass
+    {
+
+    }
 }
