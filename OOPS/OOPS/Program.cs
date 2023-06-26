@@ -4,11 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            PolymorphismDemo pd = new PolymorphismDemo();
+           /* PolymorphismDemo pd = new PolymorphismDemo();
             pd.sound();
             Child cd = new Child();
-            cd.sound();
+            cd.sound(); */
 
+            Children cd = new Children();
+            cd.Sum();
             /*ObjectAndClass obj = new ObjectAndClass();
             obj.Sum(20, 30);*/
 
