@@ -41,10 +41,18 @@ namespace OOPS
                return "False";
             }
         }
+
+        public virtual void Sum(int a,int b)
+        {
+            Console.WriteLine($"The Sum of Parent Class : {a+b}");
+        }
     }
 
     class Inherit : ObjectAndClass
     {
-
+        public override void Sum(int a,int b)
+        {
+            Console.WriteLine($"The Sum of Child Class : {a+b}");
+        }
     }
 }
